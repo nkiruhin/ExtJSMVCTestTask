@@ -22,6 +22,11 @@ namespace ExtJSMVCTestTask
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            //bundles.Add(new ScriptBundle("~/bundles/extjs").Include("~/Scripts/ext-all.js"));
+            //Подключаем отладочный extjs
+            bundles.Add(new ScriptBundle("~/bundles/extjs").Include("~/Scripts/ext-all-debug.js"));
+            bundles.Add(new StyleBundle("~/Content/extjs").Include("~/extjs/resources/theme-triton-all.css"));
         }
     }
 }

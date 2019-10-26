@@ -17,7 +17,7 @@ namespace ExtJSMVCTestTask.Tests.Controllers
         public void Get()
         {
             // Упорядочение
-            ValuesController controller = new ValuesController();
+            ExtJSMVCTestTask.Controllers.ApiController controller = new ExtJSMVCTestTask.Controllers.ApiController();
 
             // Действие
             IEnumerable<string> result = controller.Get();
@@ -33,7 +33,7 @@ namespace ExtJSMVCTestTask.Tests.Controllers
         public void GetById()
         {
             // Упорядочение
-            ValuesController controller = new ValuesController();
+            ExtJSMVCTestTask.Controllers.ApiController controller = new ExtJSMVCTestTask.Controllers.ApiController();
 
             // Действие
             string result = controller.Get(5);
@@ -46,7 +46,7 @@ namespace ExtJSMVCTestTask.Tests.Controllers
         public void Post()
         {
             // Упорядочение
-            ValuesController controller = new ValuesController();
+            ExtJSMVCTestTask.Controllers.ApiController controller = new ExtJSMVCTestTask.Controllers.ApiController();
 
             // Действие
             controller.Post("value");
@@ -58,7 +58,7 @@ namespace ExtJSMVCTestTask.Tests.Controllers
         public void Put()
         {
             // Упорядочение
-            ValuesController controller = new ValuesController();
+            ExtJSMVCTestTask.Controllers.ApiController controller = new ExtJSMVCTestTask.Controllers.ApiController();
 
             // Действие
             controller.Put(5, "value");
@@ -70,7 +70,7 @@ namespace ExtJSMVCTestTask.Tests.Controllers
         public void Delete()
         {
             // Упорядочение
-            ValuesController controller = new ValuesController();
+            ExtJSMVCTestTask.Controllers.ApiController controller = new ExtJSMVCTestTask.Controllers.ApiController();
 
             // Действие
             controller.Delete(5);

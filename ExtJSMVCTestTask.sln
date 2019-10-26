@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtJSMVCTestTask", "ExtJSMVCTestTask\ExtJSMVCTestTask.csproj", "{E6897141-4870-4945-924F-08717D890A9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtJSMVCTestTask.Tests", "ExtJSMVCTestTask.Tests\ExtJSMVCTestTask.Tests.csproj", "{80670B9C-3196-4A90-8688-4502E342C0FA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{E6897141-4870-4945-924F-08717D890A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6897141-4870-4945-924F-08717D890A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6897141-4870-4945-924F-08717D890A9C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80670B9C-3196-4A90-8688-4502E342C0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80670B9C-3196-4A90-8688-4502E342C0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80670B9C-3196-4A90-8688-4502E342C0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80670B9C-3196-4A90-8688-4502E342C0FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
